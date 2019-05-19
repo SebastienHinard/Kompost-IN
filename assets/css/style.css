@@ -39,9 +39,3 @@ main{
 ul{
     list-style: none;
 }
-section, .carousel{
-    transition: .2s ease-in-out;
-}
-section:hover, .carousel:hover{
-    transform: scale(1.01);
-}
