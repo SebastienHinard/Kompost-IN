@@ -1,0 +1,35 @@
+.bg1{background-color: #d6f8b8}
+.bg2{background-color: #acdeaa}
+.bg3{background-color: #8fbbaf}
+.bg4{background-color: #6b7b8e}
+
+.titleFont{
+    font-family: 'Carter One', cursive;
+}
+/* mise en forme de la nav bar */
+.navbar-nav >.active {
+    text-decoration: none;
+    position: relative;
+}
+.navbar-nav >.active::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background: green;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s ease-in-out;
+}
+.navbar-nav >.active:hover::after {
+    width: 80%;
+    background: orange;
+}
+ul{
+    list-style: none;
+}

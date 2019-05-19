@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="assets/js/angular.js"></script>
+    <title></title>
+</head>
+<body>
+    <!-- container Bootstrap -->
+    <div class="container-fluid">
+        <!-- header -->
+        <header class="sticky-top bg-success py-2 shadow">
+            <div class="d-none d-lg-block titleFont text-center">
+                <h1>
+                    <i class="fas fa-leaf"></i>
+                    Kompost'IN
+                </h1>
+                <p class="text-muted">Le compost made in chez vous!</p>
+            </div>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="titleFont navbar-brand d-lg-none pb-0 mb-0" href="#"><i class="fas fa-leaf"></i>Kompost'IN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="mainNavBar collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Traitement des déchets<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Le lombricomposteur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notre solution</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Qui sommes-nous?<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <form class="d-sm-none form-inline my-2 my-lg-0 justify-contet-center">
+                            <input class="form-control mr-sm-2 w-50" type="text" placeholder="Rechercher" aria-label="Search">
+                            <button class="btn btn-success my-2 my-sm-0 mx-2" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </ul>
+                    <form class="d-none d-lg-inline form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+            <form class="d-none d-sm-flex d-lg-none justify-content-center form-inline my-2 my-lg-0 justify-contet-center">
+                <input class="form-control mr-sm-2 w-50" type="text" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0 mx-2" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </header>
+        <!-- main -->
+        <main>
+            <!-- carroussel  -->
+            <div class="bd-example py-4">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner bg1 shadow" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="img-fluid w-100 p-2" src="assets/img/carousel4.jpg" data-holder-rendered="true">
+                            <div class="d-block text-center">
+                                <h3 class="titleFont">First slide label</h3>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 p-2" src="assets/img/carousel1.jpg" data-holder-rendered="true">
+                            <div class="d-block text-center">
+                                <h3 class="titleFont">Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 p-2" src="assets/img/carousel3.jpg" data-holder-rendered="true">
+                            <div class="d-block text-center">
+                                <h3 class="titleFont">Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!-- section nos convictions -->
+            <section>
+                <h2 class="text-center titleFont">Nos valeurs</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="assets/img/foodwaste.jpg" alt="gaspillage alimentaire" class="img-fluid p-2">
+
+                    </div>
+                    <div class="col-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    </div>
+                <div>
+            </section>
+            <!-- section nos solutions -->
+            <section>
+                <h2 class="text-center titleFont">Nos solutions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+        </main>
+        <!-- section qui sommes nous -->
+        <section>
+            <h2 class="text-center titleFont">Qui sommes-nous?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequuntur, magni sunt tenetur ad a nesciunt cumque rem cum, iste hic quas ipsam rerum provident itaque vero adipisci est maxime.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <!-- footer -->
+        <footer class="bg2 p-2">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center titleFont lead">Notre solution vous interesse?</p>
+                    <a href=""><p class="text-center titleFont"><i class="fas fa-envelope fa-2x mx-1 text-center"></i>Contactez-nous!</p></a>
+                    <hr class="w-50">
+                </div>
+                <div class="col-12 col-md-6 text-center titleFont lead">
+                    <p class="text-center">Nos partenaires:</p>
+                    <div class="d-flex justify-content-around">
+                        <div><i class="fas fa-boxes fa-2x"></i></div>
+                        <div><i class="fas fa-truck fa-2x"></i></div>
+                        <div><i class="fab fa-pagelines fa-2x"></i></div>
+                        <div><i class="fas fa-apple-alt fa-2x"></i></div>
+                    </div>
+                    <hr class="d-md-none w-50">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="text-center titleFont lead">Suivez-nous:</p>
+                    <div class="d-flex justify-content-center lead">
+                        <div><i class="fab fa-facebook-square fa-2x mx-2"></i></div>
+                        <div><i class="fab fa-twitter fa-2x mx-2"></i></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- scripts JQuery Popper et Bootstrap-->
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- mon script principal -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
