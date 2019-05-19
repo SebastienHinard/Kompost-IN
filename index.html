@@ -15,7 +15,7 @@
     <!-- container Bootstrap -->
     <div class="container-fluid">
         <!-- header -->
-        <header class="sticky-top bg-success py-2 mb-2 shadow">
+        <header class="sticky-top bg-success py-2">
             <div class="d-none d-lg-block titleFont text-center">
                 <h1>
                     <i class="fas fa-leaf"></i>
@@ -65,29 +65,17 @@
         <!-- main -->
         <main>
             <!-- carroussel  -->
-            <div class="bd-example py-4">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner shadow mb-4" role="listbox">
+            <div class="bd-example mx-3 pt-2">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-pause="none" data-interval="1500">
+                    <div class="carousel-inner mb-4" role="listbox">
                         <div class="carousel-item active">
-                            <img class="img-fluid w-100 p-4" src="assets/img/carousel4.jpg" data-holder-rendered="true">
-                            <div class="d-block text-center">
-                                <h3 class="titleFont">First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </div>
+                            <img class="img-fluid w-100" src="assets/img/carousel4.jpg" data-holder-rendered="true">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100 p-2" src="assets/img/carousel1.jpg" data-holder-rendered="true">
-                            <div class="d-block text-center">
-                                <h3 class="titleFont">Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100 p-2" src="assets/img/carousel3.jpg" data-holder-rendered="true">
-                            <div class="d-block text-center">
-                                <h3 class="titleFont">Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -102,22 +90,40 @@
             </div>
             <!-- préoccupation -->
             <section class="p-2 mb-4">
-                <h2 class="text-center titleFont">Notre préoccupation</h2>
+                <h2 class="text-center titleFont mb-4">Notre préoccupation</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <img src="assets/img/foodwaste.jpg" alt="gaspillage alimentaire" class="img-fluid p-2">
                     </div>
-                    <div class="col-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                    <div class="col-md-6">
+                        <p>Gaspillage alimentaire, restes de repas, déchets de jardin : les déchets organiques constituent 1/3 des ordures ménagères que nous jetons à la poubelle. Jetés en mélange avec les autres déchets, ils finissent leur vie en décharge ou en incinérateur.</p>
+                        <p>Comme pour les autres types de déchets, la priorité numéro 1 reste bien sûr la lutte contre le gaspillage alimentaire, pour s’assurer que ne terminent à la poubelle que les biodéchets “inévitables”.</p>
+                        <p>Pour ces derniers, il faut ensuite s’assurer de leur tri séparé, afin qu’ils puissent être compostés ou méthanisés. A la clé : une diminution importante du poids de nos déchets, mais aussi d’autres bénéfices environnementaux (amélioration de la santé des sols, captation du carbone, production d’énergie…).</p>
+                        <p>La loi prévoit que tous les particuliers disposent d’une solution pratique de tri à la source de leurs biodéchets avant 2025.</p>
+                        <p>Seulement, même si certaines solutions sont déjà en place, elle n'incitent pas chacun à s'impliquer dans cette démarche durable.</p>
                     </div>
                 <div>
             </section>
             <!-- le lombricomposteur -->
             <section class="p-2  mb-4">
-                <h2 class="text-center titleFont">Le lombricomposteur</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2 class="text-center titleFont mb-4">Le lombricomposteur</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/img/foodwaste.jpg" alt="gaspillage alimentaire" class="img-fluid p-2">
+                    </div>
+                    <div class="col-md-6">
+                        <p><b>Qu'est ce que le lombricompostage ?</b></p>
+                        <p>En 2 mots c'est le digestion des déchets organiques par les vers de compost dans un lombricomposteur. Le lombricompostage permet aux personnes ne disposant pas de terrain d'avoir une solution pour composter.</p>
+                        <p><b>Comment fonctionne un lombricomposteur ?</b></p>
+                        <p>C'est en général  une boîte en plastique compartimentée et composée de différents éléments (schéma ci-contre).<br>
+                            Au départ un seul étage sera utilisé. Les vers sont déposés sur un 1er plateau. L'usager va ensuite ajouter les déchets organiques.<br>
+                            Les vers vont ainsi manger les déchets décomposés et les transformer en un amendement solide. Une fois le 1er plateau rempli, un 2ème plateau troué va pouvoir être ajouté afin de continuer l'apport en déchets.<br>
+                            Grâce à la nourriture apportée, les vers vont se reproduire et atteindre un équilibre. Une fois la matière décomposée vous obtiendrez du compost et du lombrithé.<br>
+                            Le lombrithé est un engrais liquide qui provient de l'eau contenu dans les déchets. Ce liquide est riche en nutriments et idéal pour arroser vos plantes.</p>
+                        <p><b>Problème:</b></p>
+                        <p>La gestion d'un lombri-composteur demande du temps et une certaine rigueur. De ce fait, beaucoup de personnes, pourtant motivées, y renoncent.</p>
+                    </div>
+                </div>
             </section>
             <!-- solution -->
             <section class="p-2  mb-4">
